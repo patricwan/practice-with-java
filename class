@@ -1,0 +1,25 @@
+
+import javax.swing.JOptionPane;
+ 
+class joption1 {
+
+	public static void main(String argv[]) {
+		// TODO Auto-generated method stub
+		int i = 0;String a[] = new String[5];
+		a[0]="Hello, Jack.";
+		a[1]="Do you want to take a leap of faith,";
+		a[2]="Or become an old man,";
+		a[3]="felt with regret,";
+		a[4]="waiting to die alone. ";
+		while(true) {
+			if(i==5) {
+				i=-1;
+			}
+			else {
+				JOptionPane.showMessageDialog(null,a[i],
+						"Let's Play A Game!!",JOptionPane.INFORMATION_MESSAGE);
+			}
+				i++;
+		}
+	}
+}
