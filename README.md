@@ -1,2 +1,3 @@
 # practice-with-java
-some practice 
+some practice for java.
+Daily update can be here.
